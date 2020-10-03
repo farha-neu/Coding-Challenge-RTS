@@ -3,7 +3,7 @@ package com.challenge.rts;
 /**
  * ProblemOne class prints the number of integers in an array that are above
  * the given input and the number that are below, e.g. for the array [1, 5, 2, 1, 10] 
- * with input 6, print “above: 1, below: 4”.
+ * with input 6, print "above: 1, below: 4".
  * @author farha
  * @version 1.0
  */
