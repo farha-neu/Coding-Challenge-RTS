@@ -1,12 +1,12 @@
 package com.challenge.rts;
 
 /**
- * RotateInput class rotates the characters in a string by a given input and
+ * ProblemTwo class rotates the characters in a string by a given input and
  * have the overflow appear at the beginning e.g. "MyString" rotated by 2 is "ngMyStri"
  * @author farha
  * @version 1.0
  */
-public class RotateInput {
+public class ProblemTwo {
 
 	/**
 	 * It rotates the characters in a string by a given input and returns the rotated string
@@ -38,7 +38,7 @@ public class RotateInput {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		RotateInput rotateInput = new RotateInput();
+		ProblemTwo rotateInput = new ProblemTwo();
 		String input = "MyString";
 		int rotateBy = 2;
 		System.out.println(rotateInput.findRotatedString(input, rotateBy));

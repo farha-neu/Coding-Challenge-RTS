@@ -1,13 +1,13 @@
 package com.challenge.rts;
 
 /**
- * AboveAndBelow class prints the number of integers in an array that are above
+ * ProblemOne class prints the number of integers in an array that are above
  * the given input and the number that are below, e.g. for the array [1, 5, 2, 1, 10] 
  * with input 6, print “above: 1, below: 4”.
  * @author farha
  * @version 1.0
  */
-public class AboveAndBelow {
+public class ProblemOne {
 
 	/**
 	 * It prints the number of integers in an array that are above
@@ -36,14 +36,14 @@ public class AboveAndBelow {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		AboveAndBelow ab = new AboveAndBelow();
+		ProblemOne aboveBelow = new ProblemOne();
 		int[] array = {1, 5, 2, 1, 10};
 		int number = 6;
-		ab.printAboveAndBelow(array, number);
+		aboveBelow.printAboveAndBelow(array, number);
 		
 		int[] array2 = {3, 8, 9, 0, 8, 20};
 		number = 8;
-		ab.printAboveAndBelow(array2, number);	
+		aboveBelow.printAboveAndBelow(array2, number);	
 	}
 }
 
