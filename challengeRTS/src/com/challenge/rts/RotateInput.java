@@ -49,8 +49,6 @@ public class RotateInput {
 		
 		input = "  ";
 		rotateBy = 1;
-		System.out.println(rotateInput.findRotatedString(input, rotateBy));
-		
-		
+		System.out.println(rotateInput.findRotatedString(input, rotateBy));		
 	}
 }
