@@ -23,6 +23,9 @@ public class RotateInput {
 		else if(rotateBy > input.length()) {
 			throw new StringIndexOutOfBoundsException("Invalid input: Number of characters to be rotated by is greater than string length");
 		}
+		else if(input.isBlank()) {
+			return input;
+		}
 		else {
 			int overflowStartIndex = input.length()-rotateBy;
 			String newStr = input.substring(overflowStartIndex) + input.substring(0, overflowStartIndex); 
@@ -43,5 +46,11 @@ public class RotateInput {
 		input = "Hello";
 		rotateBy = 4;
 		System.out.println(rotateInput.findRotatedString(input, rotateBy));
+		
+		input = "  ";
+		rotateBy = 1;
+		System.out.println(rotateInput.findRotatedString(input, rotateBy));
+		
+		
 	}
 }
